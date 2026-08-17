@@ -86,12 +86,19 @@
         </nav>
         <!-- Container -->
         <div class="container-fluid mi-container "><h1 class="titulo">Servicios</h1>
+            <p>Nuestros serivcios constan en entregar la mayor calidad posible a nuestros clientes mientras se mantiene un balance entre calidad y precio.
+                </p>
+            <div class="col-md-4 text-center">
+                <img class="img-fluid mx-auto d-block" src="img/fuegos.jpg">
+                </div>
+            <p>Un gato</p>
             <a href="index.php" class="link-menu">Ir a Principal</a><br>
             <a href="empresa.php" class="link-menu">Ir a Empresa</a><br>
             <a href="productos.php" class="link-menu">Ir a Productos</a><br>
             <a href="servicios.php" class="link-menu">Ir a Servicios</a><br>
             <a href="contacto.php" class="link-menu">Ir a Contacto</a><br>
         </div>
+
         <!-- Footer -->
         <div class="container-fluid bg-dark">
             <div class="row">
