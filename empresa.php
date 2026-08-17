@@ -41,7 +41,14 @@
             padding:0;
             background-color:#34096C;}
         </style>
+        <style>.foto-redonda {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;}
+        </style>
     </head>
+
 <body>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-sm navbar-dark" 
@@ -99,27 +106,18 @@
         <!-- Container 2 -->
         <div class="container-fluid mi-container">
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid mx-auto d-block rounded-circle" src="img/fuegos.jpg">
+                <div class="col-md-3">
+                    <img class="img-fluid mx-auto d-block rounded-circle foto-redonda" src="img/gata.jpg">
                 </div>
-                <div class="col-md-4 text-center">
-                    <img class="img-fluid mx-auto d-block rounded-circle" src="img/fuegos.jpg">
+                <div class="col-md-3 text-center">
+                    <img class="img-fluid mx-auto d-block rounded-circle foto-redonda" src="img/gatoempresario.jpg">
                 </div>
-                <div class="col-md-4">
-                    <img class="img-fluid mx-auto d-block rounded-circle" src="img/fuegos.jpg">
+                <div class="col-md-3">
+                    <img class="img-fluid mx-auto d-block rounded-circle foto-redonda" src="img/guinaojo.jpg">
                 </div>
-            </div>
-        </div>
-
-
-
-
-        <!-- Footer -->
-        <div class="container-fluid bg-dark">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4" style="color:white"><strong>MiEmpresa@2026</strong></div>
-                <div class="col-md-4"></div>
+                <div class="col-md-3">
+                    <img class="img-fluid mx-auto d-block rounded-circle foto-redonda" src="img/toala.jpg">
+                </div>
             </div>
         </div>
         <!-- Modal -->
