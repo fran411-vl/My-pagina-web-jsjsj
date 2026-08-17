@@ -1,52 +1,96 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Pagina principal</title>
+    <title>Servicios</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>  
+        <style>.menu-{background-color: #8DCEB2;
+                     color:white !important;    
+                     padding:8px 15px;  
+                     border-radius:8px;     
+                     margin-right:15px;     
+                     font-weight:bold;}
+        </style>  
+        <style>.segundoverde-{
+            background-color: #ADDCC7;
+            color:white !important;
+            padding:8px 15px;
+            border-radius:8px;
+            margin-right:15px;
+            font-weight:bold;}
+        </style>
+        <style>.mi-container{
+            border:5px solid #bc99eb;
+            border-radius:0px;
+            background-color: #DFDFF5;}  
+        </style>
+        <style>.mi-container2{
+            margin:0px;
+            border:5px solid #E2DFF5;
+            border-radius:0px;
+            background-color: #BEE8EB;}  
+        </style>
+        <style>.titulo{
+        margin-bottom:0px;
+        font-size:30px;
+        color:white;
+        font-weight:bold;
+        text-shadow:2px 2px 4px #34096C;}
+        </style>
+        <style>.link-menu{
+        color:#34096C;}
+        </style>
+       <style> body{
+    margin:0;
+    padding:0;
+    background-color:#34096C;
+}
+</style>
     </head>
     <body>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">Logo</a>
+        <!-- Navbar lo que ve el usuario -->
+        <nav class="navbar navbar-expand-sm navbar-dark"
+        style="background-color: #34096C;">
+             <div class="container-fluid">
+                <a class="navbar-brand" href="index.php"><img src="img/gato.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>        
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">        
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Empresa</a>
+                            <!-- boton empresa -->
+                            <a class="nav-link dropdown-toggle menu-" href="#" role="button" data-bs-toggle="dropdown" >Empresa</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="empresa.php">Quienes Somos</a></li>
                                 <li><a class="dropdown-item" href="#">Nuestro Equipo</a></li>
                                 <li><a class="dropdown-item" href="#">Mision</a></li>
-                            </ul>
-                        </li>                        
+                            </ul>  
+                        </li>
+                        <!-- botones navbar -->              
                         <li class="nav-item">
-                            <a class="nav-link" href="productos.php">Productos</a>
+                            <a class="nav-link segundoverde-" href="productos.php">Productos</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link segundoverde-" href="servicios.php">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="servicios.php">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
+                            <a class="nav-link segundoverde-" href="contacto.php">Contacto</a>
                         </li>
                     </ul>  
                 </div> 
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#myModal">Acceder</button>             
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#myModal">Acceder</button>                         
             </div>         
         </nav>
         <!-- Container -->
-        <div class="container-fluid bg-warning">
-            Hola Principal<br>
-            <a href="index.php">Ir a Principal</a><br>
-            <a href="empresa.php">Ir a Empresa</a><br>
-            <a href="productos.php">Ir a Productos</a><br>
-            <a href="servicios.php">Ir a Servicios</a><br>
-            <a href="contacto.php">Ir a Contacto</a><br>
+        <div class="container-fluid mi-container "><h1 class="titulo">Servicios</h1>
+            <a href="index.php" class="link-menu">Ir a Principal</a><br>
+            <a href="empresa.php" class="link-menu">Ir a Empresa</a><br>
+            <a href="productos.php" class="link-menu">Ir a Productos</a><br>
+            <a href="servicios.php" class="link-menu">Ir a Servicios</a><br>
+            <a href="contacto.php" class="link-menu">Ir a Contacto</a><br>
         </div>
         <!-- Footer -->
         <div class="container-fluid bg-dark">
