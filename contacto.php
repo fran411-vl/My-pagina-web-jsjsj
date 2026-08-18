@@ -50,7 +50,7 @@
     </head>
     
     <body>
-        <!-- Navbar lo que ve el usuario -->
+        <!-- Navbar lo que ve el usuario cambio -->
         <nav class="navbar navbar-expand-sm navbar-dark"
         style="background-color: #34096C;">
             <div class="container-fluid">
